@@ -1,5 +1,5 @@
 
-## R Markdown and LaTeX
+# R Markdown and LaTeX
 
 R Markdown is a file format for making dynamic documents with R. An R Markdown document is written in markdown and contains chunks of embedded R code. A little knowledge about LaTeX, also, could help us to make sophisticated documents by R Markdown. This is a quick reference to use R Markdown. 
 
