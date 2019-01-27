@@ -37,14 +37,9 @@ The following provides quick references to the most commonly used R Markdown syn
 ~~Scratched Text~~
 ```
 
-superscript^2^
+Also, <b>You</b> can <i>render</i> almost any <span style="color:red;">HTML</span> code that you <kbd>like</kbd> .
 ```{markdown}
-superscript^2^
-```
-
-Markdown doesn't support underline. But you can using <u>HTML Text</u> for that. Also, <b>You</b> can <i>render</i> almost any <span style="color:red;">HTML</span> code that &nbsp; you &nbsp; <kbd>like</kbd>.
-```{markdown}
-Markdown doesn't support underline. But you can using <u>HTML Text</u> for that. Also, <b>You</b> can <i>render</i> almost any <span style="color:red;">HTML</span> code that &nbsp; you &nbsp; <kbd>like</kbd>.
+Also, <b>You</b> can <i>render</i> almost any <span style="color:red;">HTML</span> code that you <kbd>like</kbd> .
 ```
 
 ## Lists
@@ -283,6 +278,6 @@ Print breaks:
 
 # LaTeX Basics
 
-A basic knowledge about LaTeX could help us to make better documents in R Markdown. You can find quick references to the most commonly used LaTeX syntax in R Markdown [here](https://ashki23.github.io/markdown_latex.html#latex_basics) and more extensive reference at [LaTeX Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Mathematics). 
+A basic knowledge about LaTeX could help us to make better documents in R Markdown. You can find quick references to the most commonly used LaTeX syntax in R Markdown [here](https://ashki23.github.io/markdown_latex.html#latex_basics) and more extensive references at [LaTeX Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Mathematics). 
 
 
