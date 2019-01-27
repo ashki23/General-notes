@@ -1,7 +1,7 @@
 
-# R Markdown
+# R Markdown and LaTeX
 
-R Markdown is a file format for making dynamic documents with R. An R Markdown document is written in markdown and contains chunks of embedded R code. This is a quick reference to use R Markdown. 
+R Markdown is a file format for making dynamic documents with R. An R Markdown document is written in markdown and contains chunks of embedded R code. A basic knowledge about LaTeX, also, could help us to make more sophisticated documents by R Markdown. This is a quick reference to use R Markdown.
 
 ---
 
@@ -10,6 +10,9 @@ R Markdown is a file format for making dynamic documents with R. An R Markdown d
 The following provides quick references to the most commonly used R Markdown syntax.
 
 ## Headers
+# H1
+## H2
+### H3
 #### H4
 ##### H5
 ###### H6
@@ -276,6 +279,10 @@ Print breaks:
 ```css
 <p style="page-break-after:always;"></p>
 ```
-A little knowledge about LaTeX, also, could help us to make sophisticated documents by R Markdown. You may find a quick references to the most commonly used LaTeX syntax in R Markdown [here](https://ashki23.github.io/markdown_latex.html#latex_basics). 
+---
+
+# LaTeX Basics
+
+A basic knowledge about LaTeX could help us to make better documents in R Markdown. You can find quick references to the most commonly used LaTeX syntax in R Markdown [here](https://ashki23.github.io/markdown_latex.html#latex_basics) and more extensive reference at [LaTeX Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Mathematics). 
 
 
