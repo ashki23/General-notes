@@ -258,10 +258,11 @@ output:
       before_body: script.html (your script file)
       after_body: footer.html (your footer file)
     css: styles.css (your css file)
+    keep_md: TRUE
 ---
 ```
 
-You can find more details [here](https://bookdown.org/yihui/rmarkdown/html-document.html).
+Last line, `keep_md: TRUE`, keeps a Markdown (md) file including codes and outputs. You may use the md file in your GitHub or GitLab repositories. Another method is using `output: github_document` to keep the md file for your Git repositories. You may find more details about YAML header [here](https://bookdown.org/yihui/rmarkdown/html-document.html).
 
 ## Manual Breaks
 
