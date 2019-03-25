@@ -87,16 +87,18 @@ http://www.github.com/
 ```
 
 ## Images
+![Raspberry Pi](https://raw.githubusercontent.com/iiiypuk/rpi-icon/master/raspberry-pi-logo_resized_256.png)
+
 ```{markdown}
 <p align="center">
-![Turing's Device](images/turing-doodle.jpg "Alan Turing's 100th Birthday")
+![Raspberry Pi](https://raw.githubusercontent.com/iiiypuk/rpi-icon/master/raspberry-pi-logo_resized_256.png)
 </p>
 ```
 
 Also, we can use HTML to add more styles:
 
 ```{markdown}
-<img src="images/turing-doodle.jpg" alt="Turing's Device" style="width:50%; border:0;">
+<img src="images/raspberry-pi-logo.png" alt="Raspberry Pi" style="width:50%; border:0;">
 ```
 
 ## Quotes
