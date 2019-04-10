@@ -292,4 +292,4 @@ Print breaks:
 A basic knowledge about LaTeX could help us to make better documents in R Markdown. You can find quick references to the most commonly used LaTeX syntax in R Markdown [here](https://ashki23.github.io/markdown_latex.html#latex_basics) and more extensive references at [LaTeX Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Mathematics). 
 
 ---
-Copyright 2018-2019, Ashkan Mirzaee. Sourcecode licensed under the GNU General Public License, Version 3.0. Documentation licensed under CC BY 3.0.
+Copyright 2018-2019, Ashkan Mirzaee. Sourcecode licensed under the GNU General Public License, Version 3.0. Documentation licensed under CC BY-SA 3.0.
