@@ -1,5 +1,6 @@
 
 # R Markdown and LaTeX
+*[Ashkan Mirzaee](https://ashki23.github.io/index.html) - December 2018*
 
 R Markdown is a file format for making dynamic HTML documents with R Studio. An R Markdown document is written in Markdown and could contain chunks of embedded source codes, LaTeX formula and graphics. A basic knowledge about Markdown and LaTeX is required to create HTML documents by R Markdown. This tutorial provides a quick reference to use Markdown and LaTeX.
 
@@ -291,4 +292,4 @@ output:
 A basic knowledge about LaTeX could help us to make better documents in R Markdown. You can find quick references to the most commonly used LaTeX syntax in R Markdown [here](https://ashki23.github.io/markdown_latex.html#latex_basics) and more extensive references at [LaTeX Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Mathematics). 
 
 ---
-Copyright 2018-2019, Ashkan Mirzaee. Sourcecode licensed under the GNU General Public License, Version 3.0. Documentation licensed under CC BY-SA 3.0.
+Copyright 2018-2019, [Ashkan Mirzaee](https://ashki23.github.io/index.html) | Content is available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | Sourcecode licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
