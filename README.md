@@ -10,7 +10,7 @@
 The following provides a quick reference to the most commonly used Markdown syntax.
 
 ## Headers
-<h3>H3</h3>
+### H3
 #### H4
 ##### H5
 ###### H6
@@ -104,20 +104,18 @@ For manual line or page breaks, we can use following HTML and CSS codes:
 ```
 
 ## Images
-<p align="center">
 ![logo](https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN-199x250.png "Raspberry pi")
-</p>
 
 ```markdown
-<p align="center">
 ![logo](https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN-199x250.png "Raspberry pi")
-</p>
 ```
 
 Also, we can use HTML to add more styles. For example:
 
 ```html
+<p align="center">
 <img src="https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN-199x250.png" alt="Raspberry pi" style="width:20%; border:0;">
+</p>
 ```
 
 ## Quotes
@@ -201,7 +199,7 @@ tags:
 We can use LaTeX to write mathematical equations in Markdown. To write inline LaTeX formula use a sigle `$` before and after the equation and use a double `$` to display equations. 
 
 # LaTeX
-A basic knowledge about LaTeX could let us to write mathematical equations in Markdown. You can find quick references to the most commonly used LaTeX syntax Markdown [here](https://ashki23.github.io/markdown-latex.html#latex_basics) and more extensive references at [LaTeX Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Mathematics). 
+A basic LaTeX knowledge let us to write mathematical equations in Markdown. You can find a quick reference to the most commonly used LaTeX syntax for Markdown in [here](https://ashki23.github.io/markdown-latex.html#latex_basics) and a more extensive reference at [LaTeX Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Mathematics). 
 
 ---
 Copyright 2018-2019, [Ashkan Mirzaee](https://ashki23.github.io/index.html) | Content is available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | Sourcecode licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
