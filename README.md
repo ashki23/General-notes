@@ -4,5 +4,5 @@ This is a repository of several general topics including notes about version con
 
 - [Version control with Git](https://github.com/ashki23/General-notes/blob/master/git.md)
 - [Emacs: a powerful text editor](https://github.com/ashki23/General-notes/blob/master/emacs.md)
-- [Org-mode](https://github.com/ashki23/General-notes/blob/master/org-mode.md)
+- [Org-mode](https://github.com/ashki23/General-notes/blob/master/org-mode.org)
 - [Markdown and LaTeX introduction](https://github.com/ashki23/General-notes/blob/master/markdown-intro.md)
