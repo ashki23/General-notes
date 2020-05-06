@@ -1,6 +1,5 @@
 
 # R Markdown and LaTeX
-*[Ashkan Mirzaee](https://ashki23.github.io/index.html) - December 2018*
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML). A Markdown document could contain chunks of embedded graphics, source codes and LaTex formula. [LaTeX](https://www.latex-project.org//) is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. A basic knowledge about Markdown and LaTeX could help you to create HTML documents such as weblogs or reports easily. This tutorial provides a quick reference to use Markdown and LaTeX.
 
