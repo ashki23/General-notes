@@ -40,7 +40,7 @@ preliminary configurations by:
       user-mail-address "your@email.com")
 
 ;; Backup in one place
-(setq backup-directory-alist '(("." . "~/.emacs.d/backup")))
+(setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
 
 ;; Turn on bracket match highlight
 (show-paren-mode 1)
@@ -49,10 +49,13 @@ preliminary configurations by:
 (electric-pair-mode 1)
 ```
 
+Note that we can use `(setq make-backup-files nil)` to disable automatic
+backup.
+
 ## Commands
 
-The following are some important commands in Emacs. Note that **`C-`**
-means **`ctrl`** and **`M-`** means **`alt`**.
+The following are some important commands in Emacs. Note that `C` and
+`M` stand for `Ctrl` and `Alt` respectively.
 
   - `C-x C-c`: exit
   - `C-z`: suspend
@@ -65,17 +68,19 @@ means **`ctrl`** and **`M-`** means **`alt`**.
   - `C-x u`: undo
   - `C-a`: move to the beginning of the line
   - `C-e`: move to the end of the line
-  - `C-home`: move to the beginning of the buffer
-  - `C-end`: move to the end of the buffer
+  - `M-left`: one word left
+  - `M-right`: one word right
+  - `C-home/M-<`: move to the beginning of the buffer
+  - `C-end/M->`: move to the end of the buffer
   - `M-g g`: go to line
-  - `C-s`/`C-r`: search/reverse search
+  - `C-s/C-r`: search/reverse search
   - `M-%`: replace
   - `C-g`: stop a command
   - `C-x C-f`: make/open a file as a new buffer
   - `C-x b`: change the buffer
   - `C-x k`: kill the buffer
   - `C-x 1`: close other windows
-  - `C-x 0`/`q`: close/quit windows
+  - `C-x 0/q`: close/quit windows
   - `C-x o`: switch to other windows
   - `C-h ?`: help list
   - `C-h t`: tutorial
@@ -83,7 +88,7 @@ means **`ctrl`** and **`M-`** means **`alt`**.
   - `C-h c`: show help for the command
   - `M-x <command>`: run commands
   - `M-x ispell`: spell check; enter the suggested `digit` or `a` to
-    accept or `r` to rewrite
+    accept and `r` to rewrite
   - `M-x package-install`: install packages
   - `M-x package-list-packages`: list of packages
 
@@ -145,7 +150,7 @@ M-x package-install ess
 
 To see list of the available packages use `M-x package-list-packages`.
 And to delete packages, use `M-x package-delete` and enter the package’s
-name. Note that you may use `C-s`/`C-r` for searching and `C-g` to
+name. Note that you may use `C-s / C-r` for searching and `C-g` to
 cancel any actions and `q` to close buffers in Emacs.
 
 ## Org-mode
@@ -168,17 +173,16 @@ an Org file by Emacs.
 
 Let’s learn how use *org-mode* to:
 
-  - insert headlines (`M-enter`) - press `M-enter` to go to the next
-    line
-  - move headlines up and down (`M-up/down`)
-  - fold/unfold (`tab/shift-tab`)
+  - insert headlines `M-enter`
+  - move headlines up and down `M-up/down`
+  - fold/unfold `tab/shift-tab`
   - insert blocks
-      - example blocks (`<e-tab`)
-      - source code blocks (`<s-tab`)
+      - example blocks `<e-tab`
+      - source code blocks `<s-tab`
           - for example org/bash/python
   - create tables
   - create TODO items
-  - save (`C-x C-s`), export (`C-c C-e`), and exit (`C-x C-c`)
+  - save `C-x C-s`, export `C-c C-e`, and exit `C-x C-c`
       - use `C-c C-e` and press `h` and then `o` to see HTML output
 
 To create above list in Org use:
@@ -208,22 +212,22 @@ o` to see the outputs in the browser.
 
 **For example**, this is an *ordered* list:
 
-1.  First (press `M-enter`)
-2.  Second (press `M-enter`)
+1.  First - press `M-enter`
+2.  Second - press `M-enter`
 3.  Third is a link to [org-mode](https://orgmode.org/) website
 
 To create above list in Org use:
 
 ``` org
 *For example*, this is an /orderd/ list:
- 1. First (press =M-enter=)
- 2. Second (press =M-enter=)
+ 1. First - press =M-enter=
+ 2. Second - press =M-enter=
  3. Third is a link to [[https://orgmode.org/][org-mode]] website
 ```
 
 ### Tables
 
-The following is a table of key abbreviations:
+The following is table of key abbreviations:
 
 | Name    | key   | Abbr. |
 | ------- | ----- | ----- |
