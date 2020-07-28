@@ -35,8 +35,6 @@ This will set your name and email address to all activities associated
 with Git. We can find the list of adjusted configurations by `git config
 --list` and to see more helps by `git config --help`.
 
------
-
 ## Git commands
 
 As a prerequisite, first learn about the [Unix Shell](shell.html) and
@@ -251,8 +249,6 @@ git push public master
 Above commad will create a new branch called `master` in `public` remote
 and push entire repo to the new location. Note that now we have two
 remotes for the repo.
-
------
 
 ## Summary
 

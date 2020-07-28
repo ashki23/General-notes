@@ -49,8 +49,9 @@ preliminary configurations by:
 (electric-pair-mode 1)
 ```
 
-Note that we can use `(setq make-backup-files nil)` to disable automatic
-backup.
+Note that we can use `(setq make-backup-files nil)` and
+`(electric-indent-mode -1)` to disable automatic backup and new lines
+auto-indentation.
 
 ## Commands
 
