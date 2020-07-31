@@ -132,10 +132,10 @@ faces in the Emacs terminal mode:
  '(minibuffer-prompt ((t (:foreground "lime green" :weight bold)))))
 ```
 
-To change the theme use `M-x load-theme`, then press `tab` to show a
-list of available themes. To clear theme use `M-x disable-theme`. Also,
-we can set a theme permanently, by add the following to `.emacs` init
-file:
+To change the theme use `M-x load-theme`, then press `tab` to see list
+of the available themes. To unload the theme use, `M-x disable-theme`.
+Also, we can set a theme permanently, by adding `(load-theme
+'<theme-name>)` to the `.emacs` init file. For example:
 
 ``` lips
 ;; Load tango-dark theme
