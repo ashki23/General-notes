@@ -133,7 +133,14 @@ faces in the Emacs terminal mode:
 ```
 
 To change the theme use `M-x load-theme`, then press `tab` to show a
-list of available themes. To clear theme use `M-x disable-theme`.
+list of available themes. To clear theme use `M-x disable-theme`. Also,
+we can set a theme permanently, by add the following to `.emacs` init
+file:
+
+``` lips
+;; Load tango-dark theme
+(load-theme 'tango-dark)
+```
 
 ## Install packages
 
