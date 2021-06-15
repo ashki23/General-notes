@@ -22,7 +22,7 @@ Emacs](https://www.gnu.org/software/emacs/download.html). Briefly for:
 
   - Linux (Debian) use `sudo apt install emacs`
   - Mac use [binaries](https://emacsformacosx.com/) - see config
-    [here](https://github.com/ashki23/Linux-notes/blob/master/Mac_terminal.md)
+    [here](https://github.com/ashki23/Linux-notes/blob/master/mac-terminal.md)
 
 ## Config file
 
@@ -147,13 +147,16 @@ Also, we can set a theme permanently, by adding `(load-theme
 In Emacs we can install extra packages based on our needs. To install a
 new package, press `M-x` and type `package-refresh-contents` to fetch
 all packages and then use `M-x package-install` and enter the new
-package’s name. For example we can install Markdown-mode, htmlize and
-ESS (R-mode) packages with:
+package’s name. For example we can install Markdown-mode, htmlize, ESS
+(R-mode), autocomplete-mode and
+[Jedi](https://tkf.github.io/emacs-jedi/latest/) with:
 
 ``` lips
 M-x package-install markdown-mode
 M-x package-install htmlize
 M-x package-install ess
+M-x package-install auto-complete
+M-x package-install jedi
 ```
 
 To see list of the available packages use `M-x package-list-packages`.
