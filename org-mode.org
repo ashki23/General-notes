@@ -112,6 +112,3 @@ If $a^2=b$ and $b=2$, then the solution must be either $$a=+\sqrt{2}$$ or $$a=-\
 #+END_SRC
 
 Org processes LaTeX codes in the HTML/PDF outputs.
-
------
-Copyright 2018-2019, [[https://ashki23.github.io/index.html][Ashkan Mirzaee]] | Content is available under [[https://creativecommons.org/licenses/by-sa/3.0/][CC BY-SA 3.0]] | Sourcecode licensed under [[https://www.gnu.org/licenses/gpl-3.0.en.html][GPL-3.0]]
