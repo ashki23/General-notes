@@ -1,5 +1,4 @@
 # Markdown and LaTeX introduction
-*[Ashkan Mirzaee](https://ashki23.github.io/index.html)*
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a
 text-to-HTML conversion tool for web writers. Markdown allows you to
@@ -13,7 +12,7 @@ and LaTeX could let to create HTML documents such as weblogs or reports
 very easily. This tutorial provides a quick reference to use Markdown
 and LaTeX.
 
------
+------------------------------------------------------------------------
 
 # Markdown
 
@@ -25,7 +24,6 @@ Markdown syntax.
 <h3>
 
 H3
-
 </h3>
 
 #### H4
@@ -76,17 +74,13 @@ Markdown doesn't support underline, but we can use <u>HTML Text</u> instead. Als
 
 For manual line or page breaks, we can use following HTML and CSS codes:
 
-  - Line breaks:
-
-<!-- end list -->
+- Line breaks:
 
 ``` html
 <br />
 ```
 
-  - Print breaks:
-
-<!-- end list -->
+- Print breaks:
 
 ``` css
 <p style="page-break-after:always;"></p>
@@ -94,14 +88,12 @@ For manual line or page breaks, we can use following HTML and CSS codes:
 
 ## Lists
 
-  - Item 1
-  - Item 2
-      - Item 2a
-      - Item 2b
-          - Item 2b-1
-          - Item 2b-2
-
-<!-- end list -->
+- Item 1
+- Item 2
+  - Item 2a
+  - Item 2b
+    - Item 2b-1
+    - Item 2b-2
 
 ``` markdown
 - Item 1
@@ -115,10 +107,8 @@ For manual line or page breaks, we can use following HTML and CSS codes:
 1.  Item 1
 2.  Item 2
 3.  Item 3
-      - Item 3a
-      - Item 3b
-
-<!-- end list -->
+    - Item 3a
+    - Item 3b
 
 ``` markdown
 1. Item 1
@@ -140,8 +130,12 @@ For manual line or page breaks, we can use following HTML and CSS codes:
 
 <p align="center">
 
-![logo](https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN-199x250.png
-"Raspberry pi")
+<figure>
+<img
+src="https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN-199x250.png"
+title="Raspberry pi" alt="logo" />
+<figcaption aria-hidden="true">logo</figcaption>
+</figure>
 
 </p>
 
@@ -163,7 +157,7 @@ can use HTML to add more styles, for example:
 ## Quotes
 
 > Imagination is more important than knowledge.
-> 
+>
 > Albert Einstein
 
 ``` markdown
@@ -176,7 +170,7 @@ can use HTML to add more styles, for example:
 
 Use three dashes `---` to draw an horizontal line like:
 
------
+------------------------------------------------------------------------
 
 ``` markdown
 ---
@@ -187,7 +181,7 @@ Use three dashes `---` to draw an horizontal line like:
 <div style="margin-bottom: 1rem; overflow-x: auto;">
 
 | 1st Header |   2nd Header   | 3rd Header |
-| :--------- | :------------: | ---------: |
+|:-----------|:--------------:|-----------:|
 | col 1 is   |  left-aligned  |          1 |
 | col 2 is   | center-aligned |          2 |
 | col 3 is   | right-aligned  |          3 |
@@ -211,13 +205,14 @@ them in a division like:
 </div>
 ```
 
-Also, we can use `overflow-x: scroll` to always scroll or `overflow-x:
-hidden` to hide them compeletely.
+Also, we can use `overflow-x: scroll` to always scroll or
+`overflow-x: hidden` to hide them compeletely.
 
 ## Code blocks
 
 In Markdown, we can simply add plain code blocks to display (not
-evaluating) by inserting triple back quote i.e. ` ``` `. For example:
+evaluating) by inserting triple back quote i.e. ```` ``` ````. For
+example:
 
 ``` r
 norm = function(x) {
@@ -267,7 +262,7 @@ We can use LaTeX to write mathematical equations in Markdown. To write
 inline LaTeX formula use a single `$` before and after the equation and
 use a double `$` to display equations.
 
------
+------------------------------------------------------------------------
 
 # LaTeX
 
@@ -280,4 +275,4 @@ Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 
 ---
 
-Copyright 2018-2021, [Ashkan Mirzaee](https://ashki23.github.io/index.html) | Content is available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | Sourcecode licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
+Copyright, [Ashkan Mirzaee](https://ashki23.github.io/index.html) | Content is available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | Sourcecode licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)

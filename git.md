@@ -1,5 +1,4 @@
 # Version control with Git
-*[Ashkan Mirzaee](https://ashki23.github.io/index.html)*
 
 Git is an open source distributed version control system designed to
 handle everything from small to very large projects with speed and
@@ -7,12 +6,12 @@ efficiency. This tutorial shows how to install and use Git in a local
 computer and connect to a remote repository on GitHub or GitLab. The
 following are great sources to learn more about Git:
 
-  - [Pro Git book](https://git-scm.com/book/en/v2)
-  - [Version Control with Git](http://swcarpentry.github.io/git-novice/)
-  - [GitHub cheat
-    sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+- [Pro Git book](https://git-scm.com/book/en/v2)
+- [Version Control with Git](http://swcarpentry.github.io/git-novice/)
+- [GitHub cheat
+  sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 
------
+------------------------------------------------------------------------
 
 ## Installation
 
@@ -32,8 +31,8 @@ $ git config --global user.email "your@email"
 ```
 
 This will set your name and email address to all activities associated
-with Git. We can find the list of adjusted configurations by `git config
---list` and to see more helps by `git config --help`.
+with Git. We can find the list of adjusted configurations by
+`git config --list` and to see more helps by `git config --help`.
 
 ## Git commands
 
@@ -60,8 +59,8 @@ git status # say "nothing to commit but untracked files present"
 
 To record all changes by Git, we need to:
 
-  - Add file contents to the index by `git add`
-  - Record changes to the repository by `git commit`
+- Add file contents to the index by `git add`
+- Record changes to the repository by `git commit`
 
 Use the following commands for the above steps:
 
@@ -300,4 +299,4 @@ git branch -d <branch name> # delete a branch
 
 ---
 
-Copyright 2018-2021, [Ashkan Mirzaee](https://ashki23.github.io/index.html) | Content is available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | Sourcecode licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
+Copyright, [Ashkan Mirzaee](https://ashki23.github.io/index.html) | Content is available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | Sourcecode licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
